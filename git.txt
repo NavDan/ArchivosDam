@@ -1,0 +1,40 @@
+cheat sheet <Lenguaje>
+git config --global user.name "nombre" // lo mismo con el email
+git --help
+-- -> generalmente para mostrar informacion
+git init ->inicializar importante
+git status
+git add "nombre del archivo + extension" -> cambia el estado a staging area
+
+ls -> list
+pwd -> location
+ls 
+-a -> archivos ocultos
+-l -> permisos de los archivos
+rm -r -> remover fichero archivo
+git config --list -> lista de configuracion
+git log -> cambios realizados
+
+touch -> crear ficheros (solo en linux)
+
+"git status ." es lo mismo que "git status *"
+git commit -> meter en el repositorio
+git show -> el fichero como esta guardado en el repositorio
+nano <archivo> -> editor de texto
+cat -> muestre el contenido de un archivo
+git checkout <Hash> -> (el hash se encuentra haciendo un git log) . < importante -> regresa a un cambio realizado anteriormente
+git checkout -> trabaja en el staging area
+git reset --hard (se puede añadir soft o head)
+head -> devuelve al primer commit hecho
+git branch -> crear rama debe haber un commit antes
+git checkout -> para ingresar a ramas
+git merge "ramasecundaria" "rama master" -> sobrescribe archivos que se tengan en ambas ramas
+y  añade ficheros de otras ramas
+git commit -m "mensaje"
+git clone -> clona algo de la nube (github)
+gut push ->lo sube a la nube
+git stash -> copia del estado en el que este el proyecto (cualquiera: staging,commit,singuardar)
+git pop -> 
+git stash gophy ->
+git remote add <nombre> url -> repositorio local se conecta a un en github
+git pull <nombre> <rama> -> obtener archivos del repositorio
